@@ -21,7 +21,7 @@ class PropiedadForm(forms.ModelForm):
             "nombre": forms.TextInput(attrs={"required": True}),
             "pais": forms.TextInput(attrs={"required": True}),
             "direccion": forms.TextInput(attrs={"required": True}),
-            "codigo_postal": forms.NumberInput(attrs={"required": False}),
+            "codigo_postal": forms.NumberInput(attrs={"required": True}),
             "superficie": forms.NumberInput(attrs={"required": True}),
             "ciudad": forms.TextInput(attrs={"required": True}),
             "tipos_opciones": forms.Select(attrs={"required": True}),

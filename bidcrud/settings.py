@@ -83,11 +83,11 @@ WSGI_APPLICATION = "bidcrud.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "propertydb",
-        "USER": "ritces",
-        "PASSWORD": "24464713",
-        "HOST": "localhost",
-        "PORT": "5432",
+        "NAME": "postgres",
+        "USER": "postgres",
+        "PASSWORD": "postgres",
+        "HOST": "db",
+        "PORT": 5432,
     }
 }
 
